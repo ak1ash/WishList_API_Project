@@ -14,7 +14,7 @@ Access Level can be either private or public. Depending on the type of access va
 
 Using Private API endpoint, GET, POST, UPDATE and DELETE operations can be performed and the amount granted cannot be viewed. Only the amount wished is visible.
 
-Whereas using Public API endpoint, one can update the amount granted for a particular wish.
+Whereas using Public API endpoint, one can update the amount granted for a particular wish. Also GET can be used to view the amount granted for each of the wish along with other wish details. 
 
 Using the access Level, a UUID can be generated for the public or private user and only that ID can be used to access the API endpoints that would be available.
 

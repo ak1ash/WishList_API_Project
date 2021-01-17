@@ -1,14 +1,43 @@
 # WishList_API_Project
 
-~ A REST project with API endpoints consumable by the end user. 
+## A REST project with API endpoints consumable by the end user. 
 
-Endpoint for Private API: /api/private_wish/<wish_number>
+### i) Endpoint for UUID access generator for private and public user: /api/access_level/
 
-Endpoint for Public API: /api/public_wish/<wish_number>
+Data:
 
-Endpoint for UUID access generator for private and public user: /api/access_level/
+```json
+{ 
+  "access_level": <access_level> 
+} 
+```
 
-Data: { "access_level": <access_level> } 
+### ii) Endpoint for Private API: /api/private_wish/<wish_number>
+
+Data: 
+
+```json
+
+{
+    "wish_id": <wish_number usually auto updated>,
+    "wish": <wish>,
+    "amount_wished": <The amount wished>,
+    "destination_uri": <destination URI of the wish>,
+    "image_uri": <Image URI of the wish>
+}
+
+```
+
+
+### iii) Endpoint for Public API: /api/public_wish/<wish_number>
+
+Data:
+
+```json
+{
+    "amount_granted": <Enter amount to be granted>
+}
+```
 
 Access Level can be either private or public. Depending on the type of access various operations can be performed.
 

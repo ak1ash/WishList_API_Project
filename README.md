@@ -8,7 +8,7 @@ Data:
 
 ```json
 { 
-  "access_level": <access_level> 
+  "access_level": "<access_level>" 
 } 
 ```
 
@@ -22,11 +22,11 @@ Data:
 ```json
 
 {
-    "wish_id": <wish_number usually auto updated>,
-    "wish": <wish>,
-    "amount_wished": <The amount wished>,
-    "destination_uri": <destination URI of the wish>,
-    "image_uri": <Image URI of the wish>
+    "wish_id": "<wish_number usually auto updated>",
+    "wish": "<wish>",
+    "amount_wished": "<The amount wished>",
+    "destination_uri": "<destination URI of the wish>",
+    "image_uri": "<Image URI of the wish>"
 }
 
 ```
@@ -40,7 +40,7 @@ Data:
 
 ```json
 {
-    "amount_granted": <Enter amount to be granted>
+    "amount_granted": "<Enter amount to be granted>"
 }
 ```
 

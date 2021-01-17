@@ -12,6 +12,9 @@ Data:
 } 
 ```
 
+Implemented APIs:
+```POST```
+
 ### ii) Endpoint for Private API: /api/private_wish/<wish_number>
 
 Data: 
@@ -28,6 +31,8 @@ Data:
 
 ```
 
+Implemented APIs:
+```GET, POST, PUT, DELETE```
 
 ### iii) Endpoint for Public API: /api/public_wish/<wish_number>
 
@@ -38,6 +43,9 @@ Data:
     "amount_granted": <Enter amount to be granted>
 }
 ```
+
+Implemented APIs:
+```GET, PUT```
 
 Access Level can be either private or public. Depending on the type of access various operations can be performed.
 
